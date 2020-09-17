@@ -3,5 +3,6 @@ def my_each(arguments)
   while c < arguments.length 
    yield(arguments[c])
    c += 1 
-   
+ end
+ arguments
 end
